@@ -1,0 +1,3280 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:Farhan/FinancialOntology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="urn:absolute:Farhan/FinancialOntology">
+    <Prefix name="" IRI="Farhan/FinancialOntology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="FinancialOntology" IRI="http://www.semanticweb.org/Farhan/FinancialOntology#"/>
+    <Import>urn:absolute:Farhan/FinancialOntology</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <AnonymousIndividual nodeID="_:urn:absolute:Farhan/FinancialOntology#genid277782024037500"/>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardFirm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BalanceSheetItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance_Premium_Bancassurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BestTechnologyBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Corporate_Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Domestic_Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Interntional_Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Investment_Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Retail_Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BondInvestment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Breakup_value_per_share"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Car_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_dividend_per_share"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ConsumerBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CorporateBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CorporateBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CreditCard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Current_deposits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CurrentlyVulnerable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#DebitCard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deferred_tax_assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend_payout_ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend_yield"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_Per_Share"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_per_share_(after_tax)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_per_share_(before_tax)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Employees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Euro_Bonds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Exports_-_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ExtremelyStrong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Female_Employees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fixed_assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fixed_deposits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Full-year_dividend_per_share"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Gross_Markup_Income"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High_during_the_year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Imports_-_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Intangible_assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Expense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Income_Earned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#InvestmentBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#IslamicBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LessVulnerable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Liabilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Long_Term_Entity_Credit_Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Low_during_the_year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LowerMedium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Male_Employees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Market_Capitalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Market_value_per_share_-_as_at"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MicroFinanceBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MoreVulnerable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MutualFundInvestment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#NII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Naya_Pakistan_Certificates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Net_Interest_Income"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Net_markup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Branches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Debit_cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Internet_Banking_subscribers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Auto_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Home_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Personal_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_subscribers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_POS_terminals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_QR_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Smart_Cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_branchless_banking_agents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_credit_cards_customers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Bancassurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Credit_Cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Debit_Cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Mobile_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_debit_cards_customers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_customers_Bancassurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_issuance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_policies_Bancassurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Mobile_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Other_assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Home_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Personal_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PIB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Pakistan_Investment_Bonds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_After_Tax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_after_taxation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_before_taxation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RetailBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SMEBank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SUKUK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Savings_deposits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SectorInvestment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Short_Term_Entity_Credit_Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SpecialSavingsBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#StockInvestment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Stock_Holders_Equity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#TermFinanceCertificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Term_deposits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Advances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Deposits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Investment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_Accounts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_customers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_employees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_spend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Trade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Transactions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USDBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#VeryStrong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Mobile_Banking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#WapdaBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Women_customers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#interest_earned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#interest_expensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#transaction_volume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#audited"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#auditedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#giveDividend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#givenAwardBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasAwardCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBalanceSheetItem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBondCurrency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBondType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasDividendCurrency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialTermCurrency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialYear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasIssuer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasNo._of_customers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasSectorType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasStock"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasTerm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#inCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#investedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winAward"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDeposits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmployees"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_ATMs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_Debit_cards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Auto_Loan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Home_Loan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Personal_Loan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_credit_cards_customers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_customers_Credit_Cards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_customers_Debit_Cards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_customers_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_customers_Mobile_Banking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_new_issuance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_transactions_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNo._of_transactions_Mobile_Banking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutstanding_Volume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutstanding_Volume_Home_Loan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutstanding_Volume_Personal_Loan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProducts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTouchPoints"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTrade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTransactions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVolume_of_transactions_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hastransaction_volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan_Outstanding_Volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance_Premium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards_transaction_volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FTCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loans_Outstanding_Volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Auto_Loans_disbursed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_customers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_new_customers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_policies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Credit_Cards_customers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Home_Loans_disbursed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_customers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_transactions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Personal_Loans_disbursed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_Credit_Cards_issuance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan_Outstanding_Volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SBPCarValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SBPMCRValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_ATMS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_Debit_cards"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_customers_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_transactions_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Volume_of_transactions_Internet_Banking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_Mobile_Banking__transactions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#awardName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#awardType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#balanceSheetItemName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#bondName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#cashDividendAmount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#categoryName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#couponPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#couponRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#currencyCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#currencyName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#dividendName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#faceValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermAmount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#investmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isBankConventional"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isBankIslamic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isForeignBond"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isLocationGlobal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#locationName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#locationType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#maturity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#noOfShares"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#orgName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#percentChange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratingFirmType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratingName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#sectorName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#since"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockLast52High"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockLast52Low"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockMarketPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#2020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ABL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AUD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aaa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Limited"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Ltd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankIslami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#DIB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deloitte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dubai_Islamic_Bank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EnY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F1+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fergusan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GBP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Habib_Bank_Limited"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#IBP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#JCR-VIS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#JPY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#KPMG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MCB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PKR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Pakistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PwC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UBL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USD"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CurrencyCode"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirmType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:topDataProperty"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Car_Loan"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ConsumerBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RetailBank"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CorporateBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#TermFinanceCertificate"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EPS"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_Per_Share"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EPS"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_per_share_(after_tax)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_Per_Share"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_per_share_(after_tax)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Expense"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#interest_expensed"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Income_Earned"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#interest_earned"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#NII"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Net_Interest_Income"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMS"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMs"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Debit_cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Smart_Cards"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Internet_Banking_subscribers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Internet_Banking"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_subscribers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Mobile_Banking"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_credit_cards_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Credit_Cards"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Debit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_debit_cards_customers"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PAT"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_After_Tax"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PAT"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_after_taxation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PIB"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Pakistan_Investment_Bonds"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_After_Tax"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_after_taxation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_spend"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#transaction_volume"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BalanceSheetItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardFirm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BalanceSheetItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance_Premium_Bancassurance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BestTechnologyBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Corporate_Bank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Domestic_Bank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Interntional_Bank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Investment_Bank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Best_Retail_Bank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BondInvestment"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Breakup_value_per_share"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Car_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_dividend_per_share"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ConsumerBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CorporateBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CorporateBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CreditCard"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Current_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CurrentlyVulnerable"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#DebitCard"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deferred_tax_assets"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend_payout_ratio"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend_yield"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EPS"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_Per_Share"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_per_share_(after_tax)"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Earnings_per_share_(before_tax)"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Employees"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Euro_Bonds"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Exports_-_volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Trade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ExtremelyStrong"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Female_Employees"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Employees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialYear"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fixed_assets"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fixed_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Full-year_dividend_per_share"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Gross_Markup_Income"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High_during_the_year"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Imports_-_volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Trade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Intangible_assets"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Expense"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Income_Earned"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#InvestmentBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#IslamicBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LessVulnerable"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Liabilities"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BalanceSheetItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Long_Term_Entity_Credit_Rating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Low_during_the_year"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LowerMedium"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Male_Employees"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Employees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Market_Capitalisation"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Market_value_per_share_-_as_at"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MicroFinanceBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MoreVulnerable"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MutualFundInvestment"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#NII"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Naya_Pakistan_Certificates"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#TermFinanceCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Net_Interest_Income"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Net_markup"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMS"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMs"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Branches"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Debit_cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Internet_Banking_subscribers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Auto_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_subscribers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_POS_terminals"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_QR_code"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Smart_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_branchless_banking_agents"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_credit_cards_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Bancassurance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Credit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Debit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_debit_cards_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_customers_Bancassurance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_issuance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_policies_Bancassurance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Transactions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Other_assets"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PAT"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PIB"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Pakistan_Investment_Bonds"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_After_Tax"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_after_taxation"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Profit_before_taxation"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Rating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RetailBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SMEBank"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SUKUK"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Savings_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SectorInvestment"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Short_Term_Entity_Credit_Rating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SpecialSavingsBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#StockInvestment"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Stock_Holders_Equity"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#TermFinanceCertificate"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Term_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Advances"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Assets"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Liabilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Investment"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_Accounts"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_employees"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Employees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_spend"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Trade"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Transactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USDBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#VeryStrong"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Transactions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#WapdaBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Women_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Customers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#interest_earned"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#interest_expensed"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#transaction_volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Current_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fixed_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Savings_deposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Term_deposits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialYear"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A+"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1+"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LowerMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA+"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ExtremelyStrong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ABL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AUD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Strong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ExtremelyStrong"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aaa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB+"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Adequate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankIslami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deloitte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dubai_Islamic_Bank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#EY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F1+"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LowerMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#GBP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#IBP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#JCR-VIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#KPMG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MCB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#High"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UpperMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LowerMedium"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PKR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Pakistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PwC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UBL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USD"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ABL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Limited"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ABL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Ltd"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Limited"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Ltd"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#DIB"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dubai_Islamic_Bank"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Habib_Bank_Limited"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa2"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA+"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa1"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA-"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa3"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aaa"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Fitch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#F1+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLocation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Pakistan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLocation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRating"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRating"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#HBL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialYear"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MCB"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#2020"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aaa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Baa1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Aa3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#P-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#PACRA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BBB-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A+"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AAA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/Farhan/FinancialOntology#A-1+"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#audited"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#auditedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winAward"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRating"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winAward"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winAward"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#audited"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#auditedBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#giveDividend"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#givenAwardBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasAwardCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBalanceSheetItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBondCurrency"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBondType"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BondInvestment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasDividendCurrency"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialTermCurrency"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialYear"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasIssuer"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLocation"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasNo._of_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasSectorType"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SectorInvestment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasStock"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasTerm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#inCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#investedIn"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratedBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winAward"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDeposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEmployees"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_ATMs"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_Debit_cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Auto_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_credit_cards_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_customers_Credit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_customers_Debit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Digital_Banking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_customers_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_customers_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_new_issuance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNo._of_transactions_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#MobileBanking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutstanding_Volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutstanding_Volume_Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutstanding_Volume_Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProducts"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTouchPoints"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTrade"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTransactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVolume_of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Internet_Banking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hastransaction_volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#audited"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#auditedBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AuditFirm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#giveDividend"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#givenAwardBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardFirm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasAwardCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#AwardCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBalanceSheetItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BalanceSheetItem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBondCurrency"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasBondType"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BankCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasDividendCurrency"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialTermCurrency"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasFinancialYear"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialYear"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasIssuer"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLocation"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRatingItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#LongTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasNo._of_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_customers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRating"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRatingItem"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ShortTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasTerm"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#inCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#investedIn"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratedBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winAward"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#winBy"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Mobile_Banking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDeposits"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Deposits"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEmployees"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Employees"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_ATMs"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_Debit_cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Debit_cards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Auto_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Auto_Loan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Home_Loan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_Loans_disbursed_Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Personal_Loan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_credit_cards_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_credit_cards_customers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_customers_Credit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Credit_Cards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_customers_Debit_Cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Debit_Cards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_customers_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Internet_Banking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_customers_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Mobile_Banking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_new_issuance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_issuance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Internet_Banking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNo._of_transactions_Mobile_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Mobile_Banking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutstanding_Volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutstanding_Volume_Home_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Home_Loan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutstanding_Volume_Personal_Loan"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Personal_Loan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProducts"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Products"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTouchPoints"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Touch_points"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTrade"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Trade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTransactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Transactions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVolume_of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Internet_Banking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hastransaction_volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#transaction_volume"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasLongTermRating"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#hasShortTermRating"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermAmount"/>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#dividendName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan_Outstanding_Volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance_Premium"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance_Premium_Bancassurance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards_transaction_volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#transaction_volume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FTCategory"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loans_Outstanding_Volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Home_Loan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Auto_Loans_disbursed"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Auto_Loan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Bancassurance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_new_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_customers_Bancassurance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_policies"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_policies_Bancassurance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Credit_Cards_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Credit_Cards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Home_Loans_disbursed"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Home_Loan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_customers"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Mobile_Banking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_transactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Mobile_Banking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Personal_Loans_disbursed"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Loans_disbursed_Personal_Loan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_Credit_Cards_issuance"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_issuance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan_Outstanding_Volume"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Outstanding_Volume_Personal_Loan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SBPCarValue"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SBPMCRValue"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_ATMS"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_ATMS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_Debit_cards"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Debit_cards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_customers_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_customers_Internet_Banking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_transactions_Internet_Banking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Volume_of_transactions_Internet_Banking"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Internet_Banking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_Mobile_Banking__transactions"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_transactions_Mobile_Banking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#awardName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#awardType"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Award"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#balanceSheetItemName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#BalanceSheetItem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#bondName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#cashDividendAmount"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Cash_Dividend"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#categoryName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Category"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#couponPeriod"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#couponRate"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#currencyCode"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#currencyName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Currency"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#dividendName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Dividend"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#faceValue"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermAmount"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#investmentName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Investment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isBankConventional"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isBankIslamic"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isForeignBond"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isLocationGlobal"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#locationName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#locationType"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#maturity"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#orgName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#percentChange"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FinancialTerm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratingFirmType"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratingName"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#since"/>
+        <Class IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bond"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Auto_Loan_Outstanding_Volume"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Bancassurance_Premium"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Credit_Cards_transaction_volume"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#FTCategory"/>
+        <DataOneOf>
+            <Literal datatypeIRI="&rdf;PlainLiteral">EARNING</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">LIQUIDITY</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">PROFITABILITY</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Home_Loans_Outstanding_Volume"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Auto_Loans_disbursed"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_customers"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_new_customers"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Bancassurance_policies"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Credit_Cards_customers"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Home_Loans_disbursed"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_customers"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Mobile_Banking_transactions"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_Personal_Loans_disbursed"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#No._of_new_Credit_Cards_issuance"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Personal_Loan_Outstanding_Volume"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SBPCarValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#SBPMCRValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_ATMS"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_Debit_cards"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_customers_Internet_Banking"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_No._of_transactions_Internet_Banking"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Total_Volume_of_transactions_Internet_Banking"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#Volume_of_Mobile_Banking__transactions"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#awardName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#awardType"/>
+        <DataOneOf>
+            <Literal datatypeIRI="&rdf;PlainLiteral">GLOBAL</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">LOCAL</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#balanceSheetItemName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#bondName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#cashDividendAmount"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#categoryName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#couponPeriod"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#couponRate"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#currencyCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#currencyName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#dividendName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#faceValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermAmount"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#financialTermName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#investmentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isBankConventional"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isBankIslamic"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isForeignBond"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#isLocationGlobal"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#locationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#locationType"/>
+        <DataOneOf>
+            <Literal datatypeIRI="&rdf;PlainLiteral">CITY</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">COUNTRY</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">PROVINCE</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">REGION</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">STATE</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#maturity"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#noOfShares"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#orgName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#percentChange"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratingFirmType"/>
+        <DataOneOf>
+            <Literal datatypeIRI="&rdf;PlainLiteral">BOND_RATER</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">ORGANIZATION_RATER</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#ratingName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#sectorName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#since"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockLast52High"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockLast52Low"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockMarketPrice"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#stockName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#CurrencyCode"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#AUD</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">PKR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#Allied_Bank_Ltd</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">ABL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#CorporateBond</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Corporate Bond is a debt security which is issued by company and sold to investors to meet its financial requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirmType"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#Fitch</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BOND_RATER</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#GovtBond</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Government bond is a debt security loaned by a government to assist government spending, most often issued in the country’s local interest.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#Interest_Income_Earned</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">InterestIncomeEarned</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirmType"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#Moody’s</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BOND_RATER</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirmType"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#PACRA</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ORGANIZATION_RATER</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#PAT</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">PAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirm</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Credit rating agency is an independent enterprise that evaluates the financial standing of issuers of debt instrument and then assigns a rating that exhibits its assessment of the issuer’s aptitude to make the debt payments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/Farhan/FinancialOntology#RatingFirmType"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#S&amp;P</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BOND_RATER</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="owl:topDataProperty"/>
+        <IRI>http://www.semanticweb.org/Farhan/FinancialOntology#currency</IRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
